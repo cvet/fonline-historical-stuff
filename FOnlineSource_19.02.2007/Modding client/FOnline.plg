@@ -1,0 +1,187 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FOnline - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/rs.res" /d "NDEBUG" "F:\Repoz\FOdev\Modding client\rs.rc"" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP4D.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/FOnline.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\Repoz\FOdev\Modding client\BufMngr.cpp"
+"F:\Repoz\FOdev\Modding client\CFileMngr.cpp"
+"F:\Repoz\FOdev\Modding client\CFont.cpp"
+"F:\Repoz\FOdev\Modding client\CHexField.cpp"
+"F:\Repoz\FOdev\Modding client\common.cpp"
+"F:\Repoz\FOdev\Modding client\Critter.cpp"
+"F:\Repoz\FOdev\Modding client\CSpriteManager.cpp"
+"F:\Repoz\FOdev\Modding client\datfile.cpp"
+"F:\Repoz\FOdev\Modding client\FEngine.cpp"
+"F:\Repoz\FOdev\Modding client\FEngine_Iface.cpp"
+"F:\Repoz\FOdev\Modding client\keyb.cpp"
+"F:\Repoz\FOdev\Modding client\main.cpp"
+"F:\Repoz\FOdev\Modding client\SoundMngr.cpp"
+"F:\Repoz\FOdev\Modding client\decomp_acm\acmstrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP4D.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP71.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\Repoz\FOdev\Modding client\cfile\cfile.cpp"
+"F:\Repoz\FOdev\Modding client\zlib\adler32.c"
+"F:\Repoz\FOdev\Modding client\zlib\compress.c"
+"F:\Repoz\FOdev\Modding client\zlib\crc32.c"
+"F:\Repoz\FOdev\Modding client\zlib\deflate.c"
+"F:\Repoz\FOdev\Modding client\zlib\gzio.c"
+"F:\Repoz\FOdev\Modding client\zlib\infblock.c"
+"F:\Repoz\FOdev\Modding client\zlib\infcodes.c"
+"F:\Repoz\FOdev\Modding client\zlib\inffast.c"
+"F:\Repoz\FOdev\Modding client\zlib\inflate.c"
+"F:\Repoz\FOdev\Modding client\zlib\inftrees.c"
+"F:\Repoz\FOdev\Modding client\zlib\infutil.c"
+"F:\Repoz\FOdev\Modding client\zlib\maketree.c"
+"F:\Repoz\FOdev\Modding client\zlib\trees.c"
+"F:\Repoz\FOdev\Modding client\zlib\uncompr.c"
+"F:\Repoz\FOdev\Modding client\zlib\zutil.c"
+"F:\Repoz\FOdev\Modding client\unlzss\unlzss.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP71.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP72.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/FOnline.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\Repoz\FOdev\Modding client\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP72.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP73.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Debug/FOnline.pdb" /machine:I386 /out:"F:\FOnline\client\FOnline.exe" 
+".\Debug\BufMngr.obj"
+".\Debug\CFileMngr.obj"
+".\Debug\CFont.obj"
+".\Debug\CHexField.obj"
+".\Debug\common.obj"
+".\Debug\Critter.obj"
+".\Debug\CSpriteManager.obj"
+".\Debug\datfile.obj"
+".\Debug\FEngine.obj"
+".\Debug\FEngine_Iface.obj"
+".\Debug\keyb.obj"
+".\Debug\main.obj"
+".\Debug\SoundMngr.obj"
+".\Debug\stdafx.obj"
+".\Debug\cfile.obj"
+".\Debug\adler32.obj"
+".\Debug\compress.obj"
+".\Debug\crc32.obj"
+".\Debug\deflate.obj"
+".\Debug\gzio.obj"
+".\Debug\infblock.obj"
+".\Debug\infcodes.obj"
+".\Debug\inffast.obj"
+".\Debug\inflate.obj"
+".\Debug\inftrees.obj"
+".\Debug\infutil.obj"
+".\Debug\maketree.obj"
+".\Debug\trees.obj"
+".\Debug\uncompr.obj"
+".\Debug\zutil.obj"
+".\Debug\unlzss.obj"
+".\Debug\acmstrm.obj"
+".\Debug\rs.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP73.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Compiling...
+BufMngr.cpp
+CFileMngr.cpp
+F:\Repoz\FOdev\Modding client\BufMngr.cpp(81):"Необходимо позже сделать чтобы при недостатке данных он попытался их прочитать несколько раз с некоторым интервалом и только потом выдавать ошибку"
+CFont.cpp
+CHexField.cpp
+common.cpp
+Critter.cpp
+CSpriteManager.cpp
+datfile.cpp
+FEngine.cpp
+FEngine_Iface.cpp
+F:\Repoz\FOdev\Modding client\FEngine.cpp(1236):"Потом убрать отсюда и ввести экран подключения"
+keyb.cpp
+main.cpp
+SoundMngr.cpp
+acmstrm.cpp
+Generating Code...
+Compiling...
+cfile.cpp
+Generating Code...
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infblock.c
+infcodes.c
+inffast.c
+inflate.c
+inftrees.c
+infutil.c
+maketree.c
+trees.c
+uncompr.c
+zutil.c
+Generating Code...
+Compiling...
+unlzss.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP75.tmp" with contents
+[
+/nologo /o"Debug/FOnline.bsc" 
+".\Debug\stdafx.sbr"
+".\Debug\BufMngr.sbr"
+".\Debug\CFileMngr.sbr"
+".\Debug\CFont.sbr"
+".\Debug\CHexField.sbr"
+".\Debug\common.sbr"
+".\Debug\Critter.sbr"
+".\Debug\CSpriteManager.sbr"
+".\Debug\datfile.sbr"
+".\Debug\FEngine.sbr"
+".\Debug\FEngine_Iface.sbr"
+".\Debug\keyb.sbr"
+".\Debug\main.sbr"
+".\Debug\SoundMngr.sbr"
+".\Debug\cfile.sbr"
+".\Debug\adler32.sbr"
+".\Debug\compress.sbr"
+".\Debug\crc32.sbr"
+".\Debug\deflate.sbr"
+".\Debug\gzio.sbr"
+".\Debug\infblock.sbr"
+".\Debug\infcodes.sbr"
+".\Debug\inffast.sbr"
+".\Debug\inflate.sbr"
+".\Debug\inftrees.sbr"
+".\Debug\infutil.sbr"
+".\Debug\maketree.sbr"
+".\Debug\trees.sbr"
+".\Debug\uncompr.sbr"
+".\Debug\zutil.sbr"
+".\Debug\unlzss.sbr"
+".\Debug\acmstrm.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP75.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+FOnline.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FOserver - Win32 Service Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"rs.res" /d "NDEBUG" "F:\Repoz\FOdev\Modding server\rs.rc"" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP10B5.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "FOSERVICE_VERSION" /FR /Fp"Release/FOserver.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\Repoz\FOdev\Modding server\BufMngr.cpp"
+"F:\Repoz\FOdev\Modding server\CFileMngr.cpp"
+"F:\Repoz\FOdev\Modding server\FOserv.cpp"
+"F:\Repoz\FOdev\Modding server\main.cpp"
+"F:\Repoz\FOdev\Modding server\MapMngr.cpp"
+"F:\Repoz\FOdev\Modding server\socials.cpp"
+"F:\Repoz\FOdev\Modding server\sql.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP10B5.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP10B6.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "FOSERVICE_VERSION" /FR /Fp"Release/FOserver.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\Repoz\FOdev\Modding server\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP10B6.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP10B7.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "FOSERVICE_VERSION" /FR /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\Repoz\FOdev\Modding server\zlib\adler32.c"
+"F:\Repoz\FOdev\Modding server\zlib\compress.c"
+"F:\Repoz\FOdev\Modding server\zlib\crc32.c"
+"F:\Repoz\FOdev\Modding server\zlib\deflate.c"
+"F:\Repoz\FOdev\Modding server\zlib\gzio.c"
+"F:\Repoz\FOdev\Modding server\zlib\infblock.c"
+"F:\Repoz\FOdev\Modding server\zlib\infcodes.c"
+"F:\Repoz\FOdev\Modding server\zlib\inffast.c"
+"F:\Repoz\FOdev\Modding server\zlib\inflate.c"
+"F:\Repoz\FOdev\Modding server\zlib\inftrees.c"
+"F:\Repoz\FOdev\Modding server\zlib\infutil.c"
+"F:\Repoz\FOdev\Modding server\zlib\trees.c"
+"F:\Repoz\FOdev\Modding server\zlib\uncompr.c"
+"F:\Repoz\FOdev\Modding server\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP10B7.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP10B8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:".\FOservSVS.pdb" /machine:I386 /out:"F:\FOnline\server\FOservSVS.exe" 
+".\Release\BufMngr.obj"
+".\Release\CFileMngr.obj"
+".\Release\FOserv.obj"
+".\Release\main.obj"
+".\Release\MapMngr.obj"
+".\Release\socials.obj"
+".\Release\sql.obj"
+".\Release\stdafx.obj"
+".\Release\adler32.obj"
+".\Release\compress.obj"
+".\Release\crc32.obj"
+".\Release\deflate.obj"
+".\Release\gzio.obj"
+".\Release\infblock.obj"
+".\Release\infcodes.obj"
+".\Release\inffast.obj"
+".\Release\inflate.obj"
+".\Release\inftrees.obj"
+".\Release\infutil.obj"
+".\Release\trees.obj"
+".\Release\uncompr.obj"
+".\Release\zutil.obj"
+".\rs.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP10B8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+BufMngr.cpp
+CFileMngr.cpp
+F:\Repoz\FOdev\Modding server\BufMngr.cpp(81):"Необходимо позже сделать чтобы при недостатке данных он попытался их прочитать несколько раз с некоторым интервалом и только потом выдавать ошибку"
+FOserv.cpp
+main.cpp
+MapMngr.cpp
+socials.cpp
+sql.cpp
+Generating Code...
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infblock.c
+infcodes.c
+inffast.c
+inflate.c
+inftrees.c
+infutil.c
+trees.c
+uncompr.c
+zutil.c
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP10BA.tmp" with contents
+[
+/nologo /o".\FOserver.bsc" 
+".\stdafx.sbr"
+".\BufMngr.sbr"
+".\CFileMngr.sbr"
+".\FOserv.sbr"
+".\main.sbr"
+".\MapMngr.sbr"
+".\socials.sbr"
+".\sql.sbr"
+".\adler32.sbr"
+".\compress.sbr"
+".\crc32.sbr"
+".\deflate.sbr"
+".\gzio.sbr"
+".\infblock.sbr"
+".\infcodes.sbr"
+".\inffast.sbr"
+".\inflate.sbr"
+".\inftrees.sbr"
+".\infutil.sbr"
+".\trees.sbr"
+".\uncompr.sbr"
+".\zutil.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP10BA.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+FOservSVS.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

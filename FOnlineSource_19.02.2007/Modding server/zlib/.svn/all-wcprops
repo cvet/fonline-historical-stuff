@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib
+END
+infcodes.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/infcodes.h
+END
+inffast.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/inffast.h
+END
+inffixed.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/inffixed.h
+END
+deflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/deflate.c
+END
+zlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/zlib.h
+END
+zutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/zutil.c
+END
+gzio.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/gzio.c
+END
+deflate.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/deflate.h
+END
+infutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/infutil.c
+END
+zutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/zutil.h
+END
+crc32.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/crc32.c
+END
+infutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/infutil.h
+END
+inftrees.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/inftrees.c
+END
+zlib.3
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/zlib.3
+END
+trees.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/trees.c
+END
+inflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/inflate.c
+END
+zlib.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/zlib.html
+END
+uncompr.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/uncompr.c
+END
+inftrees.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/inftrees.h
+END
+zconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/zconf.h
+END
+infblock.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/infblock.c
+END
+trees.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/trees.h
+END
+inffast.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/inffast.c
+END
+infcodes.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/infcodes.c
+END
+compress.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/compress.c
+END
+infblock.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/infblock.h
+END
+adler32.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/adler32.c
+END
+maketree.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/fonline/!svn/ver/5/FOdev/Modding%20server/zlib/maketree.c
+END
